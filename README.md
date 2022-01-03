@@ -1,7 +1,8 @@
 Read me- 
 
 
-Weather App -
+Weather App - to show the environamental conditions inside and outside 
+
 
 Sense hat is used to gather the Temperature/Humidity/Pressure information 
 I calibrated the temperature to take into account the CPU temperature 
@@ -21,7 +22,7 @@ channelId=1558527
 transmissionInterval=900
 transmissionIntervalhour=3600
 
-
+Glitch Website code saved to main
 Glitch - enter your api Key in reading. js line 21 
 Thingspeak enter api_key=9NUP3IEFBO0AX1FO to read the channel in dashboard line 18 line  and line 23 reading.js
 
