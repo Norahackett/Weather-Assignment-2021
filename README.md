@@ -1,26 +1,29 @@
-Read me
+Read me- 
+
 
 Weather App -
 
-Thingspeak - get 
+Sense hat is used to gather the Temperature/Humidity/Pressure information 
+I calibrated the temperature to take into account the CPU temperature 
 
-#thingspeak 
+used Pyown libabry to get the rain proability in the next hour. 
 
-create a env File with the below data 
+Thingspeak - Puslishs the data every 15mins
 
+#thingspeak - used the information published to get a tweet and email which can be seen in my video 
+
+Pleae create a env File with the below data as i was getting error when senidng to github
+
+username = FhMAKiwhOSITAjIrBTcTByc
+clientId = FhMAKiwhOSITAjIrBTcTByc
+password = o3a0WRWCLy0VMtZPiH5bZII5
 channelId=1558527
 transmissionInterval=900
+transmissionIntervalhour=3600
 
 
-#openweather 
-api_id= <enter Your APi key>
-lon=-7.2522
-lat=52.6542
+Glitch - enter your api Key in reading. js line 21 
+Thingspeak enter api_key=9NUP3IEFBO0AX1FO to read the channel in dashboard line 18 line  and line 23 reading.js
 
-#blynk 
-BLYNK_AUTH = 'hCPOZIwwpc2XWtGSBfMJIMmQI3JvIfSB'
 
-  Glitch 
-  api channnel- 
-  Channel api_key=9NUP3IEFBO0AX1FO
-  https://api.thingspeak.com/channels/1558527/feeds.json?api_key=9NUP3IEFBO0AX1FO&results`
+ Video- saved - Video details - YouTube Studio
